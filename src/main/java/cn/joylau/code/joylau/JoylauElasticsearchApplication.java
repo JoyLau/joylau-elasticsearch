@@ -17,6 +17,7 @@ public class JoylauElasticsearchApplication {
 
 	@Bean
 	public RestTemplate restTemplate() {
+		System.out.println("");
 		return builder.build();
 	}
 }

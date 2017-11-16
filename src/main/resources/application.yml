@@ -1,5 +1,5 @@
 spring:
   data:
     elasticsearch:
-      cluster-name: elasticsearch
-      cluster-nodes: localhost:9300
+      cluster-name: joylau
+      cluster-nodes: 192.168.10.192:9300

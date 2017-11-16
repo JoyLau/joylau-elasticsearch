@@ -12,7 +12,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
  */
 @Data
 @NoArgsConstructor
-@Document(indexName = "songdb",type = "song")
+@Document(indexName = "song",type = "joylau-music")
 public class Song {
     @Id
     private int id;
@@ -23,22 +23,12 @@ public class Song {
 
     private long time;
 
-    private String commentKeyId;
-
-    private String mp3URL;
+    private int playlistId;
 
     /*歌曲封面地址*/
     private String picURL;
 
-    /*歌曲描述*/
-    private String describe;
-
     /*专辑*/
     private String album;
 
-    /*歌词*/
-    private String lyric;
-
-    /*mvid*/
-    private int mvId;
 }
