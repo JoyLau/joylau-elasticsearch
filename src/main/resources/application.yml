@@ -1,5 +1,5 @@
 spring:
   data:
     elasticsearch:
-      cluster-name: joylau
-      cluster-nodes: 192.168.96.1:9300
+      cluster-name: AHES5-dn04
+      cluster-nodes: 192.168.10.232:9322
